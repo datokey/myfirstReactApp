@@ -1,0 +1,18 @@
+{
+    "movie":[
+        {
+            "title" : "One Punch Man",
+            "image" :"https://photo.kontan.co.id/photo/2020/09/22/49553742p.jpg",
+            "description" : "anime about super hero nobody know",
+            "relase_date":"2018",
+            "id":1
+        },
+        {
+            "title": "Dr.Stone",
+            "image":"https://cdn.myanimelist.net/images/anime/1613/102576.jpg",
+            "description": "anime about tennage trapped in stone word",
+            "relase_date": "2018",
+            "id": 2
+        }
+    ]
+}

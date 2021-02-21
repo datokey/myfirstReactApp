@@ -1,11 +1,52 @@
-import './App.css';
-import Home from './components/Home'
+import Home from './page/Home';
+import Navbar from './components/Navbar';
+import About from './page/About';
+import Detail from './page/Detail';
+import Create from './page/Create';
 
-function App() {
+import useFetch from './hook/useFetch';
+import Loading from './components/Loading';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+
+const App = () => {
+
+  const { data: dataMovie, isLoading, error } =
+    useFetch('http://localhost:8080/movie');
+
+
   return (
-    <div className="App">
-     <Home/>
-    </div>
+    <Router>
+      <div className="flex flex-col min-h-screen justify-between bg-gray-300">
+        {/* navbar */}
+        <Navbar />
+
+        {/* body */}
+        <Switch>
+          {/* body page */}
+          <Route exact path="/">
+            {/* loading  */}
+            {/* pesan error  */}
+            {error && <div className="flex justify-center"> {error}</div>}
+            {isLoading && <div className="flex justify-center">
+              <Loading />
+            </div>}
+            {dataMovie && <Home data={dataMovie} title="Anime" />}
+          </Route>
+            <Route path="/about">
+              <About />
+            </Route>
+            <Route path="/detail">
+              <Detail />
+            </Route>
+            <Route path="/Create">
+              <Create />
+            </Route>
+        </Switch>
+
+        {/* footer */}
+        <div>Footer</div>
+      </div>
+    </Router>
   );
 }
 

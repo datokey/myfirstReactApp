@@ -27,7 +27,7 @@ const useFetch = (url) => {
                 setError(err.message);
                 console.log(err.message)
             });
-    }, []);
+    }, [url]);
 
     return {data, isLoading, error}
 }
