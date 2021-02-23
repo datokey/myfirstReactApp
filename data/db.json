@@ -1,18 +1,60 @@
 {
-    "movie":[
-        {
-            "title" : "One Punch Man",
-            "image" :"https://photo.kontan.co.id/photo/2020/09/22/49553742p.jpg",
-            "description" : "anime about super hero nobody know",
-            "relase_date":"2018",
-            "id":1
-        },
-        {
-            "title": "Dr.Stone",
-            "image":"https://cdn.myanimelist.net/images/anime/1613/102576.jpg",
-            "description": "anime about tennage trapped in stone word",
-            "relase_date": "2018",
-            "id": 2
-        }
-    ]
+  "movie": [
+    {
+      "title": "One Punch Man",
+      "image": "https://photo.kontan.co.id/photo/2020/09/22/49553742p.jpg",
+      "description": "anime about tennage trapped in stone word",
+      "relase_date": "2018",
+      "id": 1
+    },
+    {
+      "title": "Dr.Stone",
+      "image": "https://cdn.myanimelist.net/images/anime/1613/102576.jpg",
+      "description": "anime about tennage trapped in stone word",
+      "relase_date": "2018",
+      "id": 2
+    },
+    {
+      "title": "Attack on Titan ",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d6/Shingeki_no_Kyojin_manga_volume_1.jpg/220px-Shingeki_no_Kyojin_manga_volume_1.jpg",
+      "description": "Attack on Titan (Japanese: 進撃の巨人, Hepburn: Shingeki no Kyojin, lit. \"The Attack Titan\") is a Japanese manga series written and illustrated by Hajime Isayama. It is set in a world where humanity lives inside cities surrounded by enormous walls that protect them from gigantic man-eating humanoids referred to as Titans; the story follows Eren Yeager, who vows to exterminate the Titans after a Titan brings about the destruction of his hometown and the death of his mother. Attack on Titan has been serialized in Kodansha's monthly Bessatsu Shōnen Magazine since September 2009 and collected into 33 tankōbon volumes as of January 2021.",
+      "rating": "",
+      "id": 4
+    },
+    {
+      "title": "Demon Slayer",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/0/09/Demon_Slayer_-_Kimetsu_no_Yaiba%2C_volume_1.jpg/220px-Demon_Slayer_-_Kimetsu_no_Yaiba%2C_volume_1.jpg",
+      "description": "Demon Slayer: Kimetsu no Yaiba (Japanese: 鬼滅の刃, Hepburn: Kimetsu no Yaiba, lit. \"Blade of Demon Destruction\"[4]) is a Japanese manga series written and illustrated by Koyoharu Gotouge. It follows Tanjiro Kamado, a young boy who wants to become a demon slayer after his family is slaughtered and his younger sister Nezuko is turned into a demon. It was serialized in Shueisha's shōnen manga magazine Weekly Shōnen Jump from February 2016 to May 2020, with its chapters collected in 23 tankōbon volumes. It has been published in English by Viz Media and simulpublished by Shueisha on their Manga Plus platform.",
+      "rating": "",
+      "id": 5
+    },
+    {
+      "title": "Vinland Saga",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/5/51/Vinland_Saga_volume_01_cover.jpg/220px-Vinland_Saga_volume_01_cover.jpg",
+      "description": "Vinland Saga (Japanese: ヴィンランド・サガ, Hepburn: Vinrando Saga) is a Japanese historical manga series written and illustrated by manga author Makoto Yukimura. The series is published by Kodansha, and was first serialized in the youth-targeted Weekly Shōnen Magazine before moving to the monthly manga magazine Monthly Afternoon, aimed at young adult men. As of November 2019, the series has been compiled into twenty-three bound volumes. Vinland Saga has also been licensed for English-language publication by Kodansha USA.",
+      "rating": "",
+      "id": 6
+    },
+    {
+      "title": "beelzebub",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ea/Beelzebub_manga_Volume_1.jpg/220px-Beelzebub_manga_Volume_1.jpg",
+      "description": "Beelzebub (Japanese: べるぜバブ, Hepburn: Beruzebabu) is a Japanese manga series written and illustrated by Ryuhei Tamura. Beelzebub is the story about a first year student at a school for juvenile delinquents. It was first published in 2008 as a one-shot in Shueisha's Weekly Shōnen Jump, subsequently winning the fourth Gold Future Cup. The manga was then serialized in the same magazine, from February 2009 to February 2014, and then transferred to Jump Next!! as Beelzebub Another, where it ran from May 2014 to March 2015.",
+      "rating": "",
+      "id": 7
+    },
+    {
+      "title": "JoJo's Bizarre Adventure",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/7/75/JoJo_Part_3_Stardust_Crusaders.jpg/250px-JoJo_Part_3_Stardust_Crusaders.jpg",
+      "description": "oJo's Bizarre Adventure: Stardust Crusaders (Japanese: ジョジョの奇妙な冒険 スターダストクルセイダース, Hepburn: JoJo no Kimyō na Bōken Sutādasuto Kuruseidāsu) is the second season of the JoJo's Bizarre Adventure anime by David Production, based on the JoJo's Bizarre Adventure manga series by Hirohiko Araki. It is the second animated adaptation of the manga's third part, Stardust Crusaders, following an original video animation series by A.P.P.P. that was released first in 1993 and continued later in 2000",
+      "rating": "",
+      "id": 8
+    },
+    {
+      "title": "Tokyo Ghoul",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e5/Tokyo_Ghoul_volume_1_cover.jpg/220px-Tokyo_Ghoul_volume_1_cover.jpg",
+      "description": "Tokyo Ghoul (Japanese: 東京喰種トーキョーグール, Hepburn: Tōkyō Gūru) is a Japanese dark fantasy manga series written and illustrated by Sui Ishida. It was serialized in Shueisha's seinen manga magazine Weekly Young Jump between September 2011 and September 2014, and was collected in fourteen tankōbon volumes. A prequel, titled Tokyo Ghoul [Jack], ran online on Jump Live in 2013 and was collected in a single tankōbon volume. A sequel, titled Tokyo Ghoul:re, was serialized in Weekly Young Jump between October 2014 and July 2018, and was collected in sixteen tankōbon volumes.",
+      "rating": "",
+      "id": 9
+    }
+  ]
 }
