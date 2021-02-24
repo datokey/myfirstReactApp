@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Body = ({ title, data }) => {
     return (
-      <main className="p-20">
+      <main className="md:p-20 p-1">
         <div
           className="font-extrabold text-2xl border-b-2 
                border-gray-200 flex justify-start"
