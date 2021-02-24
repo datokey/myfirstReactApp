@@ -1,20 +1,6 @@
 {
   "movie": [
     {
-      "title": "One Punch Man",
-      "image": "https://photo.kontan.co.id/photo/2020/09/22/49553742p.jpg",
-      "description": "anime about tennage trapped in stone word",
-      "relase_date": "2018",
-      "id": 1
-    },
-    {
-      "title": "Dr.Stone",
-      "image": "https://cdn.myanimelist.net/images/anime/1613/102576.jpg",
-      "description": "anime about tennage trapped in stone word",
-      "relase_date": "2018",
-      "id": 2
-    },
-    {
       "title": "Attack on Titan ",
       "image": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d6/Shingeki_no_Kyojin_manga_volume_1.jpg/220px-Shingeki_no_Kyojin_manga_volume_1.jpg",
       "description": "Attack on Titan (Japanese: 進撃の巨人, Hepburn: Shingeki no Kyojin, lit. \"The Attack Titan\") is a Japanese manga series written and illustrated by Hajime Isayama. It is set in a world where humanity lives inside cities surrounded by enormous walls that protect them from gigantic man-eating humanoids referred to as Titans; the story follows Eren Yeager, who vows to exterminate the Titans after a Titan brings about the destruction of his hometown and the death of his mother. Attack on Titan has been serialized in Kodansha's monthly Bessatsu Shōnen Magazine since September 2009 and collected into 33 tankōbon volumes as of January 2021.",

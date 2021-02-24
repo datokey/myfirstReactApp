@@ -46,6 +46,10 @@ const App = () => {
             </Route>
         </Switch>
 
+        {/* footer */}
+        <div className="flex items-center justify-center">
+        <h3 className="font-serif p-3 text-xl">Footer</h3>  
+          </div>
       </div>
     </Router>
   );
