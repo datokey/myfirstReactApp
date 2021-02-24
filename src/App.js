@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import About from './page/About';
 import Detail from './page/Detail';
 import Create from './page/Create';
+import PageNotFound from './page/PageNotFound';
 
 import useFetch from './hook/useFetch';
 import Loading from './components/Loading';
@@ -16,10 +17,9 @@ const App = () => {
 
   return (
     <Router>
-      <div className="flex flex-col min-h-screen justify-between bg-gray-300">
+      <div className="flex flex-col min-h-screen justify-between bg-gray-300 font-body">
         {/* navbar */}
         <Navbar />
-
         {/* body */}
         <Switch>
           {/* body page */}
@@ -40,6 +40,9 @@ const App = () => {
             </Route>
             <Route path="/Create">
               <Create />
+            </Route>
+            <Route path="*">
+              <PageNotFound/>
             </Route>
         </Switch>
 
